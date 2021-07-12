@@ -46,11 +46,52 @@ namespace codeChallenges
             }
         }
 
+        static void PerfectSequence(int[] arr)
+        {
+            int sum = 0;
+            int product = 1;
+            bool hasNegative = false;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] < 0)
+                {
+                    foreach(int item in arr)
+                    {
+                        Console.Write("{0} ", item);
+                    }
+                    Console.WriteLine("No");
+                    hasNegative = true;
+                    break;
+                }
+                else
+                {
+                    sum += arr[i];
+                    product *= arr[i];
+                }
+            }
+            if(sum == product && hasNegative == false)
+            {
+                foreach (int item in arr)
+                {
+                    Console.Write("{0} ", item);
+                }
+                Console.WriteLine("Yes");
+            }
+            else if (sum != product && hasNegative == false)
+            {
+                foreach (int item in arr)
+                {
+                    Console.Write("{0} ", item);
+                }
+                Console.WriteLine("No");
+            }
+        }
 
         static void Main(string[] args)
         {
             //ArrayMax();
-            LeapYear();
+            //LeapYear();
+            PerfectSequence(new int[] { 1, 3, 2});
         }
     }
 }
