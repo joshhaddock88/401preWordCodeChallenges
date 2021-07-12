@@ -6,7 +6,7 @@ namespace codeChallenges
     {
         static void ArrayMax()
         {
-            int max = 1;
+            int max = 0;
             int[] numbers = new int[5];
             for (int i = 0; i < numbers.Length; i++)
             {
@@ -25,14 +25,32 @@ namespace codeChallenges
             {
                 if(numbers[i] == scoreNumber)
                 {
-                    max *= scoreNumber;
+                    max += scoreNumber;
                 }
             }
             Console.WriteLine("Your number score is {0}!", max);
         }
+
+        static void LeapYear()
+        {
+            Console.Write("Choose a year and I'll tell you if it's a leap year: ");
+            string yearString = Console.ReadLine();
+            int yearInt = Convert.ToInt32(yearString);
+            if (yearInt % 4 == 0 && (yearInt % 100 != 0 || yearInt % 400 == 0))
+            {
+                Console.WriteLine("{0} is a leap year!", yearString);
+            }
+            else
+            {
+                Console.WriteLine("{0} is not a leap year...", yearString);
+            }
+        }
+
+
         static void Main(string[] args)
         {
-            ArrayMax();
+            //ArrayMax();
+            LeapYear();
         }
     }
 }
