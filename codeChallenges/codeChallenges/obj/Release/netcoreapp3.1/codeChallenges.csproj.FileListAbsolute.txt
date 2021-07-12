@@ -1,0 +1,12 @@
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\bin\Release\netcoreapp3.1\codeChallenges.exe
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\bin\Release\netcoreapp3.1\codeChallenges.deps.json
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\bin\Release\netcoreapp3.1\codeChallenges.runtimeconfig.json
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\bin\Release\netcoreapp3.1\codeChallenges.runtimeconfig.dev.json
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\bin\Release\netcoreapp3.1\codeChallenges.dll
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\bin\Release\netcoreapp3.1\codeChallenges.pdb
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\obj\Release\netcoreapp3.1\codeChallenges.AssemblyInfoInputs.cache
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\obj\Release\netcoreapp3.1\codeChallenges.AssemblyInfo.cs
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\obj\Release\netcoreapp3.1\codeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\obj\Release\netcoreapp3.1\codeChallenges.dll
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\obj\Release\netcoreapp3.1\codeChallenges.pdb
+C:\Users\joshh\OneDrive\Desktop\coding\cf\401\prework\401preWorkCodeChallenges\codeChallenges\codeChallenges\obj\Release\netcoreapp3.1\codeChallenges.genruntimeconfig.cache
