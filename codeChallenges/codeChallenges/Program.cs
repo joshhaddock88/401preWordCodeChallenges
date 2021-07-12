@@ -87,11 +87,16 @@ namespace codeChallenges
             }
         }
 
+        static void SumOfRows()
+        {
+
+        }
+
         static void Main(string[] args)
         {
             //ArrayMax();
             //LeapYear();
-            PerfectSequence(new int[] { 1, 3, 2});
+            //PerfectSequence(new int[] { 1, 3, 2});
         }
     }
 }
