@@ -6,7 +6,7 @@ namespace codeChallenges
     {
         static void ArrayMax()
         {
-            int max = 1;
+            int max = 0;
             int[] numbers = new int[5];
             for (int i = 0; i < numbers.Length; i++)
             {
@@ -25,11 +25,13 @@ namespace codeChallenges
             {
                 if(numbers[i] == scoreNumber)
                 {
-                    max *= scoreNumber;
+                    max += scoreNumber;
                 }
             }
             Console.WriteLine("Your number score is {0}!", max);
         }
+
+
         static void Main(string[] args)
         {
             ArrayMax();
