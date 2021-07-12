@@ -4,25 +4,35 @@ namespace codeChallenges
 {
     class Program
     {
-        static int ArrayMax(int[] arr, int num)
+        static void ArrayMax()
         {
-            int max = 0;
-            for (int i = 0; i < arr.Length; i++)
+            int max = 1;
+            int[] numbers = new int[5];
+            for (int i = 0; i < numbers.Length; i++)
             {
-                if (arr[i] == num)
+                Console.Write("Choose a number between 1 and 10: ");
+                string request = Console.ReadLine();
+                numbers[i] = Convert.ToInt32(request);
+            }
+            foreach(var item in numbers)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            Console.Write("Choose one more number: ");
+            string scoreString = Console.ReadLine();
+            int scoreNumber = Convert.ToInt32(scoreString);
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if(numbers[i] == scoreNumber)
                 {
-                    max += num;
+                    max *= scoreNumber;
                 }
             }
-            Console.WriteLine(max);
-            Console.ReadLine();
-            return max;
+            Console.WriteLine("Your number score is {0}!", max);
         }
         static void Main(string[] args)
         {
-            int[] arr = {6, 4, 4, 1, 3};
-            int num = 4;
-            ArrayMax(arr, num);
+            ArrayMax();
         }
     }
 }
